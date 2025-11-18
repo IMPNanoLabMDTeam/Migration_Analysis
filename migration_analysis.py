@@ -568,8 +568,8 @@ def main(model1_path, model2_path, output_dir="results", grid_size=100,
 if __name__ == "__main__":
     # 解析命令行参数
     parser = argparse.ArgumentParser(description='Analyze migration field between two MD models')
-    parser.add_argument('model1', type=str, nargs='?', help='Path to first model file (without .data extension)')
-    parser.add_argument('model2', type=str, nargs='?', help='Path to second model file (without .data extension)')
+    parser.add_argument('model1', type=str, nargs='?', help='Path to first model file (with .data extension)')
+    parser.add_argument('model2', type=str, nargs='?', help='Path to second model file (with .data extension)')
     parser.add_argument('--output-dir', '-o', type=str, default="results", 
                         help='Output directory for results (default: results)')
     parser.add_argument('--grid-size', '-g', type=int, default=100,
