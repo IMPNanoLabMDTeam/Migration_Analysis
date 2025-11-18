@@ -1,0 +1,8 @@
+[project]
+name = "migration-analysis"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "mdemon>=0.2.0",
+]
